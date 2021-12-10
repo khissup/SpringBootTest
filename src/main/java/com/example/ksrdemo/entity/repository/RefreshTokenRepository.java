@@ -1,7 +1,7 @@
 package com.example.ksrdemo.entity.repository;
 
-import com.example.demo.entity.Member;
-import com.example.demo.entity.RefreshToken;
+import com.example.ksrdemo.entity.Member;
+import com.example.ksrdemo.entity.RefreshToken;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

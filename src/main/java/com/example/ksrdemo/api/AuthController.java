@@ -1,13 +1,13 @@
 package com.example.ksrdemo.api;
 
-import com.example.demo.api.schema.auth.*;
-import com.example.demo.entity.Member;
-import com.example.demo.entity.RefreshToken;
-import com.example.demo.entity.repository.MemberRepository;
-import com.example.demo.exception.CustomException;
-import com.example.demo.exception.TokenRefreshException;
-import com.example.demo.security.JWTUtils;
-import com.example.demo.service.RefreshTokenService;
+import com.example.ksrdemo.api.schema.auth.*;
+import com.example.ksrdemo.entity.Member;
+import com.example.ksrdemo.entity.RefreshToken;
+import com.example.ksrdemo.entity.repository.MemberRepository;
+import com.example.ksrdemo.exception.CustomException;
+import com.example.ksrdemo.exception.TokenRefreshException;
+import com.example.ksrdemo.security.JWTUtils;
+import com.example.ksrdemo.service.RefreshTokenService;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

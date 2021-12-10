@@ -1,6 +1,6 @@
 package com.example.ksrdemo.security;
 
-import com.example.demo.entity.Member;
+import com.example.ksrdemo.entity.Member;
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
 import lombok.extern.slf4j.Slf4j;

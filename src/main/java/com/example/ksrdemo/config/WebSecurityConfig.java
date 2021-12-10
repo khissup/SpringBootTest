@@ -1,7 +1,7 @@
 package com.example.ksrdemo.config;
 
-import com.example.demo.api.schema.CommonResponse;
-import com.example.demo.security.AuthTokenFilter;
+import com.example.ksrdemo.api.schema.CommonResponse;
+import com.example.ksrdemo.security.AuthTokenFilter;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

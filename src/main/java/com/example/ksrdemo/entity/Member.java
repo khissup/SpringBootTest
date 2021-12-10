@@ -1,6 +1,6 @@
 package com.example.ksrdemo.entity;
 
-import com.example.demo.entity.exception.DomainException;
+import com.example.ksrdemo.entity.exception.DomainException;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;

@@ -1,10 +1,10 @@
 package com.example.ksrdemo.service;
 
-import com.example.demo.entity.LeaveHistory;
-import com.example.demo.entity.Member;
-import com.example.demo.entity.repository.LeaveHistoryRepository;
-import com.example.demo.entity.repository.MemberRepository;
-import com.example.demo.service.exception.EntityDoesNotExistException;
+import com.example.ksrdemo.entity.LeaveHistory;
+import com.example.ksrdemo.entity.Member;
+import com.example.ksrdemo.entity.repository.LeaveHistoryRepository;
+import com.example.ksrdemo.entity.repository.MemberRepository;
+import com.example.ksrdemo.service.exception.EntityDoesNotExistException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

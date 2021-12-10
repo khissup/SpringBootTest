@@ -1,9 +1,9 @@
 package com.example.ksrdemo.api;
 
-import com.example.demo.api.schema.CommonResponse;
-import com.example.demo.api.schema.leave.LeaveRequestBody;
-import com.example.demo.entity.LeaveHistory;
-import com.example.demo.service.LeaveHistoryService;
+import com.example.ksrdemo.api.schema.CommonResponse;
+import com.example.ksrdemo.api.schema.leave.LeaveRequestBody;
+import com.example.ksrdemo.entity.LeaveHistory;
+import com.example.ksrdemo.service.LeaveHistoryService;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

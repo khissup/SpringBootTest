@@ -1,6 +1,6 @@
 package com.example.ksrdemo.service.exception;
 
-import com.example.demo.exception.CustomException;
+import com.example.ksrdemo.exception.CustomException;
 
 public class EntityDoesNotExistException extends CustomException {
 

@@ -1,9 +1,9 @@
 package com.example.ksrdemo.config;
 
-import com.example.demo.api.schema.CommonResponse;
-import com.example.demo.entity.exception.DomainException;
-import com.example.demo.exception.CustomException;
-import com.example.demo.exception.TokenRefreshException;
+import com.example.ksrdemo.api.schema.CommonResponse;
+import com.example.ksrdemo.entity.exception.DomainException;
+import com.example.ksrdemo.exception.CustomException;
+import com.example.ksrdemo.exception.TokenRefreshException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.BadCredentialsException;

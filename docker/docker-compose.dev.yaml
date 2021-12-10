@@ -1,22 +1,39 @@
 version: "3.8"
 
 services:
-  ksr-mysql:
-    image: "mariadb:10.5.8"
-    container_name: ksr_mysql
-    hostname: local-mysql
-    platform: linux/x86_64    # MACOS m1 에서만 필요로하는 옵션
+  ksr-postgres:
+    image: postgres:12.9-alpine
+    container_name: postgres
+    hostname: local-postgres
+    restart: always
     ports:
-      - "3306:3306"
-    volumes:
-    #   - ./mysqlconf/conf.d/mysql.cnf:/etc/mysql/conf.d/mysql.cnf:ro
-      - ./.volumes/mysql/:/var/lib/mysql:rw
+      - "5432:5432"
     environment:
-      MYSQL_DATABASE: ksr_db
-      MYSQL_ROOT_PASSWORD: 1234
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "1234"
+      POSTGRES_DB: "ksr_db"
+    volumes:
+      - ./.volumes/postgres:/var/lib/postgresql/data
     labels:
       - "name=database"
       - "environment=dev"
+
+#  ksr-mysql:
+#    image: "mysql:8.0.27"
+#    container_name: ksr_mysql
+#    hostname: local-mysql
+#    platform: "linux/amd64"    # MACOS m1 에서만 필요로하는 옵션
+#    ports:
+#      - "3306:3306"
+#    volumes:
+#     # - ./mysqlconf/conf.d/mysql.cnf:/etc/mysql/conf.d/mysql.cnf:ro
+#      - ./.volumes/mysql/:/var/lib/mysql:rw
+#    environment:
+#      MYSQL_DATABASE: ksr_db
+#      MYSQL_ROOT_PASSWORD: 1234
+#    labels:
+#      - "name=database"
+#      - "environment=dev"
 
   ksr-redis:
     image: redis:6.2.6-alpine3.15

@@ -1,6 +1,6 @@
 package com.example.ksrdemo.service;
-import com.example.demo.entity.Member;
-import com.example.demo.entity.repository.MemberRepository;
+import com.example.ksrdemo.entity.Member;
+import com.example.ksrdemo.entity.repository.MemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

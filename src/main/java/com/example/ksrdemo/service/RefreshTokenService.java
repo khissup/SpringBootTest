@@ -1,9 +1,9 @@
 package com.example.ksrdemo.service;
 
-import com.example.demo.entity.RefreshToken;
-import com.example.demo.entity.repository.MemberRepository;
-import com.example.demo.entity.repository.RefreshTokenRepository;
-import com.example.demo.exception.TokenRefreshException;
+import com.example.ksrdemo.entity.RefreshToken;
+import com.example.ksrdemo.entity.repository.MemberRepository;
+import com.example.ksrdemo.entity.repository.RefreshTokenRepository;
+import com.example.ksrdemo.exception.TokenRefreshException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

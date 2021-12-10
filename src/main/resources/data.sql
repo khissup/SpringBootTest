@@ -1,0 +1,1 @@
+INSERT INTO MEMBER (ID, USERNAME, PASSWORD, EMAIL, ROLE) VALUES (1, 'soungryoul123', '$2a$10$AlNK6pt8TNOJNp8Ep5xwQ.WuZnFZyhfu1o.1H9xmSelFsJUL3WFw2', 'sieunkr@gmail.com', 'ROLE_USER');
