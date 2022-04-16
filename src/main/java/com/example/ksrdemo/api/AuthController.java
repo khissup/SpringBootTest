@@ -34,7 +34,7 @@ public class AuthController {
   private final RefreshTokenService refreshTokenService;
   private final MemberRepository memberRepository;
   private final PasswordEncoder encoder;
-
+  // start test
   @ApiOperation(value = "access 토큰 얻기 (로그인)")
   @PostMapping("/login")
   public ResponseEntity<AuthResponse> login(@RequestBody LoginRequestBody loginRequestBody) {
