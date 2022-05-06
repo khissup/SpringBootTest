@@ -25,7 +25,7 @@ public class LeaveRequestBody {
   @ApiModelProperty(example = "0.0", notes = "반차: 0.5, 반반차: 0.25, 연차: 1.0")
   private float usedLeaveDays;
 
-  @ApiModelProperty(example = "여수 밤바다 보러 휴가 다녀오겠습니다.")
+  @ApiModelProperty(example = "휴가 다녀오겠습니다.")
   @NotNull
   private String comment;
 

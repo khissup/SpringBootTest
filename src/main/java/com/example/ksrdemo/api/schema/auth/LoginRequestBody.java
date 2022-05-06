@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class LoginRequestBody {
 
-  @ApiModelProperty(example = "soungryoul33")
+  @ApiModelProperty(example = "kanghyeok33")
   private String username;
 
   @ApiModelProperty(example = "password")

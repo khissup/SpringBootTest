@@ -5,11 +5,11 @@ import lombok.Data;
 
 @Data
 public class SignupRequest {
-    @ApiModelProperty(example = "soungryoul33")
+    @ApiModelProperty(example = "kanghyeok33")
     private String username;
     @ApiModelProperty(example = "password")
     private String password;
-    @ApiModelProperty(example = "soungr@naver.com")
+    @ApiModelProperty(example = "khissup@naver.com")
     private String email;
 
 }
